@@ -11,12 +11,16 @@
 <body>
   <div class="navigator">
     <div class="search">
-      <input id="city" type="text" placeholder="Los Ángeles">
+      <input id="city" type="text" placeholder="Santiago">
       <button id="search">Buscar</button>
+      <div id="contentError">
+        <div id="nofound"></div>
+        <span id="clear"></span>
+      </div>
     </div>
     <div class="content--location">
       <h3 id="country"></h3>
-      <p id="date">Jueves 16 Febrero</p>
+      <p id="fecha"></p>
     </div>
   </div>
   <div class="content--data">
@@ -37,7 +41,7 @@
       <div class="content--details__items">
         <span id="pressure">0°</span>
         <p>Pressure</p>
-        <span id="humidity">0°</span>
+        <span id="humidity">0%</span>
         <p>Humidity</p>
       </div>
     </div>
