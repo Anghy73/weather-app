@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <div class="navigator">
+    <div class="search">
+      <input id="city" type="text" placeholder="Los Ángeles">
+      <button id="search">Buscar</button>
+    </div>
+    <div class="content--location">
+      <h3 id="country"></h3>
+      <p id="date">Jueves 16 Febrero</p>
+    </div>
+  </div>
+  <div class="content--data">
+    <div class="content--data__primary">
+      <img id="img" src="./img/sun.png" alt="">
+      <div>
+        <span id="temp">0°</span>
+        <p id="description">Clear</p>
+      </div>
+    </div>
+    <div class="content--details">
+      <div class="content--details__items">
+        <span id="high">0°</span>
+        <p>High</p>
+        <span id="low">0°</span>
+        <p>Low</p>
+      </div>
+      <div class="content--details__items">
+        <span id="pressure">0°</span>
+        <p>Pressure</p>
+        <span id="humidity">0°</span>
+        <p>Humidity</p>
+      </div>
+    </div>
+  </div>
+  <footer>
+    <p>Crate by <a href="https://github.com/anghy73" target="_blank">Andy</a>.</p>
+  </footer>
+</body>
+</html>
