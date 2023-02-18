@@ -166,10 +166,6 @@ footer p a {
 }
 
 @media screen and (min-width: 891px) {
-  html {
-    font-size: 75.5%;
-  }
-
   body {
     background-color: rgb(86, 204, 222);
   }
