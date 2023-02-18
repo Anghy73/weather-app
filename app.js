@@ -87,9 +87,9 @@ const template = (obj) => {
   let description = document.getElementById('description');
   description.innerHTML = `${obj.description}`;
   let high = document.getElementById('high');
-  high.innerHTML = `${parseInt(obj.high)}`
+  high.innerHTML = `${parseInt(obj.high)}°`
   let low = document.getElementById('low');
-  low.innerHTML = `${parseInt(obj.low)}`
+  low.innerHTML = `${parseInt(obj.low)}°`
   let pressure = document.getElementById('pressure');
   pressure.innerHTML = `${parseInt(obj.pressure)}`
   let humidity = document.getElementById('humidity');
